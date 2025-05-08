@@ -7,6 +7,7 @@
 
         private string powerManagementFeatures;
 
+        // Additional modifications
         public required string BasicFunctionalityCode { get; set; }
         public string CommunicationProtocols { get; set; }
 

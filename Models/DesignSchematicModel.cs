@@ -15,6 +15,8 @@
             CircuitSchematics = circuitSchematics;
         }
 
+
+
         public string PowerSupplyCircuits { get; set; }
     }
 }

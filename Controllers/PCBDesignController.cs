@@ -55,7 +55,9 @@ namespace SQLiteEF_LowPower.Controllers
             // Dummy return for demonstration
             var model = new ChooseComponentsModel("PositionSensor", "LoadSensor")
             {
+
                 Stm32Model = "STM32F103",
+
                 Sensors = new[] { "PositionSensor", "LoadSensor" },
                 PowerManagementComponents = "VoltageRegulator",
                 CommunicationModules = "CAN"
@@ -85,6 +87,7 @@ namespace SQLiteEF_LowPower.Controllers
             };
             return Ok(await _context.DesignSchematic.ToListAsync());
         }
+
 
         // PCB Layout
         [HttpPost("PcbLayout")]

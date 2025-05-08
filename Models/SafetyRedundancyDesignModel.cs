@@ -2,6 +2,9 @@
 {
     public class SafetyRedundancyDesignModel
     {
+        
+
+
         // Unique identifier 
         public Int32 Id { get; set; }
         public required string SafetyFeatures { get; set; }
